@@ -1,12 +1,14 @@
 /*Google Fonts*/
   @import 'https://fonts.googleapis.com/css?family=Fruktur';
+  @import 'https://fonts.googleapis.com/css?family=Atma';
 
 /*-Style-*/
+p{font-family: 'Atma', cursive;}
 #navbar img{
   display: block;
   margin: auto;}
 #navbar #menu{
-  font-family: 'Fruktur',sans-serif;}
+  font-family: 'Fruktur',cursive;}
 #navbar #menu ul{
   list-style-type: none;
   margin: 0;padding: 0;
@@ -45,6 +47,7 @@
   #navbar img{width:15%;float:left;}
   #navbar #menu{padding-top: 90px;height: 58px;}
   #navbar #menu a{padding: 14px 26px;}
+  #community p{font-size: 14px;}
   .col-1{width: 100%;}
   .col-2{width:85%;}
   .col-5{width: 15%;}
