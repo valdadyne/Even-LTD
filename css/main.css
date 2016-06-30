@@ -7,11 +7,7 @@ body{
   background-color:#04092A;color:#fff;}
 p{
   font-family: 'Atma', cursive;}
-h3{
-  padding-top: 10px;
-  text-align: center;
-  color: orange;}
-h4{
+h3,h4,h5{
   padding-top: 10px;
   text-align: center;
   color: orange;}
@@ -22,24 +18,24 @@ h4{
 #navbar img{
   display: block;
   margin: auto;}
-#navbar #menu{
+#menu{
   font-family: 'Fruktur',cursive;}
-#navbar #menu ul{
+#menu ul{
   list-style-type: none;
   margin: 0;padding: 0;
   overflow: hidden;}
-#navbar #menu li {
+#menu li {
   float: left;}
-#navbar #menu li a:hover {
+#menu li a:hover {
   background-color: #222;
   color:aqua;}
-#navbar #menu a {
+#menu a {
   color: #fff;
   display: block;
   text-align: center;
   text-decoration: none;
   padding: 14px 6px;}
-#navbar #menu .active {
+#menu .active {
   color: orange;}
 #offers p{
   color: aqua;
@@ -50,6 +46,15 @@ h4{
   float: left;}
 #gallery>div{
   position:absolute;}
+#contact{
+  float: left;}
+#contact h5,p,a{
+  text-align: center;
+  color: #fff;}
+#footer{
+  clear:both;}
+#footer #title {
+  float:left;text-align: center;padding:2px;}
 /*---Layout Settings ---*/
 
 /* For mobile phones: */
@@ -66,7 +71,10 @@ h4{
   #offers p{font-size: 16px;}
   #about p{padding: 0 5px 0 5px}
   #gallery {width:100px;height:80px;padding: 2px;}
-
+  #contact{width:100px;height:80px;padding: 2px;}
+  #footer {width:100%;height:100px;padding: 2px;}
+  #footer #title{width:50%;padding:15px;}
+}
 /*Desktop Screens*/
   @media only screen and (min-width: 800px) {
   body { font-size:100%;padding-left: 10px;padding-right: 10px;}
@@ -76,4 +84,7 @@ h4{
   #offers p{font-size: 16px;}
   #about p{padding: 0 5px 0 5px}
   #gallery {width:500px;height:300px;padding: 2px;}
+  #contact{width:500px;height:100px;padding-left: 100px;}
+  #footer {height:100px;}
+  #footer #title{width:50%;padding:15px;}
 }
