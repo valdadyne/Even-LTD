@@ -3,11 +3,22 @@
   @import 'https://fonts.googleapis.com/css?family=Atma';
 
 /*-Style-*/
-body{background-color:#04092A;color:#fff;}
-p{font-family: 'Atma', cursive;}
+body{
+  background-color:#04092A;color:#fff;}
+p{
+  font-family: 'Atma', cursive;}
 h3{
+  padding-top: 10px;
   text-align: center;
   color: orange;}
+h4{
+  padding-top: 10px;
+  text-align: center;
+  color: orange;}
+div #offers, #about, #gallery {
+  -moz-box-shadow: 0 0 2px #888;
+  -webkit-box-shadow: 0 0 2px#888;
+  box-shadow: 0 0 2px #888;}
 #navbar img{
   display: block;
   margin: auto;}
@@ -31,8 +42,18 @@ h3{
 #navbar #menu .active {
   color: orange;}
 #offers p{
-  color: lime;
-  text-shadow: 0px 2px 3px #333;}
+  color: aqua;
+  text-shadow: 0px 3px 5px #333;}
+#about{
+  text-align: center;}
+#community{
+  float: left;}
+#gallery {
+      width: 500px;
+      height: 300px;
+      padding: 10px;}
+#gallery>div{
+  position:absolute;}
 /*---Layout Settings ---*/
 
 /* For mobile phones: */
@@ -49,12 +70,10 @@ h3{
 
 /*Desktop Screens*/
   @media only screen and (min-width: 800px) {
-  body { font-size:100%;}
+  body { font-size:100%;padding-left: 10px;padding-right: 10px;}
   #navbar img{width:15%;float:left;}
   #navbar #menu{padding-top: 90px;height: 80px;}
   #navbar #menu a{padding: 14px 26px;}
   #offers p{font-size: 16px;}
-  .col-1{width: 100%;}
-  .col-2{width:85%;}
-  .col-5{width: 15%;}
+  #about p{padding: 0 5px 0 5px}
 }
