@@ -1,2 +1,2 @@
-# gamer-kiosk
-This is a site for gaming kiosk
+# Even LTD
+Even LTD is an upcoming startup that focuses on bring awesome furniture to awesome people.
