@@ -16,20 +16,18 @@ html,body{
   height:auto;
   width:100%;
 }
-.nav-pills > li{
-    background:lightteal;
+.nav-pills{
+    background:#fff;
   -webkit-transform: skew(20deg);
   -moz-transform: skew(20deg);
   -o-transform: skew(20deg);
 }
 .nav > li > a{
    font-family: 'Sansita', sans-serif;
-    color:#fff;
+    color:#000;
 }
 .nav-pills > .active > a,
 .nav-pills > a:hover {
-    background:#fff;
-    color:brown;
 }
 #about{
   background:#AB9477;
