@@ -17,10 +17,11 @@ html,body{
   width:100%;
   background:#fff;
 }
-.nav-pills > li {
- 	-webkit-transform: skew(20deg);
-	   -moz-transform: skew(20deg);
-	     -o-transform: skew(20deg);
+.nav-pills > li{
+	background:red;
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
 }
 .nav > li > a{
    font-family: 'Sansita', sans-serif;
