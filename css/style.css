@@ -24,7 +24,8 @@ html,body{
 }
 .nav > li > a{
    font-family: 'Sansita', sans-serif;
-    color:#000;
+   color:#000;
+   font-size:1em;
 }
 .nav-pills > .active > a,
 .nav-pills > a:hover {
