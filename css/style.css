@@ -17,12 +17,14 @@ html,body{
   width:100%;
 }
 .nav-pills > li{
+    background:teal;
   -webkit-transform: skew(20deg);
   -moz-transform: skew(20deg);
   -o-transform: skew(20deg);
 }
 .nav > li > a{
    font-family: 'Sansita', sans-serif;
+    color:#fff;
 }
 .nav-pills > .active > a,{
     
