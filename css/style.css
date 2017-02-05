@@ -3,7 +3,7 @@
 html,body{
     overflow:hidden;
 }
-#home,#about,#work{
+#home,#about,#work,#contacts{
   height:100vh;
 }
 #home{
@@ -38,5 +38,4 @@ html,body{
 }
 #contacts{
   background:#A8B6AD;
-  height:500px;
 }
