@@ -15,7 +15,6 @@ html,body{
 #intro .navigation{
   height:6vh;
   width:100%;
-  padding:.5em;
   background:#fff;
 }
 .nav > li > a{
