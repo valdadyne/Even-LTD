@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita:700');
+
 html,body{
     overflow:hidden;
 }
@@ -15,6 +17,15 @@ html,body{
   width:100%;
   padding:.5em;
   background:#fff;
+}
+.nav-pills >a{
+   font-family: 'Sansita', sans-serif; 
+}
+.nav-pills > .active > a,{
+    
+}
+.nav-pills > .active > a:hover {
+
 }
 #about{
   background:#AB9477;
