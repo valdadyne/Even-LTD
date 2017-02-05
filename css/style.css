@@ -1,5 +1,6 @@
 #intro,#about,#work{
   height:100vh;
+  overflow:hidden;
 }
 #intro{
   background:#514C46;
