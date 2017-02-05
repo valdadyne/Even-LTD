@@ -10,12 +10,10 @@ html,body{
   background:#514C46;
 }
 #home .jumbo{
-  height:90vh;
 }
 .nav > li > a{
    font-family: 'Sansita', sans-serif;
    color:#000;
-   font-size:1em;
 }
 #about{
   background:#AB9477;
