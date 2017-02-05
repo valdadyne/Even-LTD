@@ -8,9 +8,9 @@
   height:90vh;
 }
 #intro .navigation{
-  height:5vh;
+  height:6vh;
   width:100%;
-  padding:1em;
+  padding:.5em;
   background:#fff;
 }
 #about{
