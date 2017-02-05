@@ -11,6 +11,9 @@ html,body{
 }
 #home .jumbo{
 }
+nav{
+    position:fixed;
+}
 .nav > li > a{
    font-family: 'Sansita', sans-serif;
    color:#000;
