@@ -16,28 +16,32 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
   
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-left">
-      <a class="navbar-brand" href="#">Brand</a>
-      <ul class="nav navbar-nav">
-        <li class='active'><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#work">work</a></li>
-        <li><a href="#contacts">contacts</a></li>
-      </ul>
-    </nav>
-    <div  id='wrapper' class='container'>
-      <section id='home'>
-        <div class= 'jumbo'>
-          <h1>Even Furnitures</h1>
-        </div>
-      </section>
-      <section id='about'>
-      </section>
-      <section id='work'>
-      </section>
-      <section id='contacts'>
-      </section>
-    </div>
-  
+    <div class='row-fluid'>
+      <div class='col-md-3'>
+        <nav class="navbar navbar-inverse navbar-fixed-left">
+          <a class="navbar-brand" href="#">Brand</a>
+          <ul class="nav navbar-nav">
+            <li class='active'><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#contacts">contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div  class='col-md-9' id='content-wrapper'>
+        <section id='home'>
+          <div class= 'jumbo'>
+            <h1>Even Furnitures</h1>
+          </div>
+        </section>
+        <section id='about'>
+        </section>
+        <section id='work'>
+        </section>
+        <section id='contacts'>
+        </section>
+      </div>
+      
+    </div>  
   </body>
 </html>
