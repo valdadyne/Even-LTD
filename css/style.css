@@ -20,7 +20,7 @@ html,body{
 .nav > li > a{
    font-family: 'Sansita', sans-serif; 
 }
-.nav-pills > li {
+.nav-pills,.nav-pills > li {
   width: 110px;
   height: 56px;
   padding-top: 15px;
@@ -32,7 +32,7 @@ html,body{
   text-align: center;
   text-transform: uppercase;
 }
-.nav-pills > li:after {
+.nav-pills:after,.nav-pills > li:after {
   content: "";
   position: absolute;
   left: 0;
