@@ -3,18 +3,14 @@
 html,body{
     overflow:hidden;
 }
-#intro,#about,#work{
+#home,#about,#work{
   height:100vh;
 }
-#intro{
+#home{
   background:#514C46;
 }
-#intro .jumbo{
+#home .jumbo{
   height:90vh;
-}
-#intro .navigation{
-  height:auto;
-  width:100%;
 }
 .nav-pills{
     background:#fff;
