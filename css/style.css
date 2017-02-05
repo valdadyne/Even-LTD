@@ -4,6 +4,14 @@
 #intro{
   background:#514C46;
 }
+#intro .jumbo{
+  height:90vh;
+}
+#intro .navigation{
+  height:10vh;
+  width:100%;
+  background:#fff;
+}
 #about{
   background:#AB9477;
 }
