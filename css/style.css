@@ -3,20 +3,17 @@
 html,body{
     overflow:hidden;
 }
-#home,#about,#work,#contacts{
+#intro{
+  background:#514C46;
   height:100vh;
 }
-#home{
-  background:#514C46;
+#intro .jumbo{
+  height:90vh;
 }
-#home .jumbo{
-}
-nav{
-    position:fixed;
-}
-.nav > li > a{
-   font-family: 'Sansita', sans-serif;
-   color:#000;
+#intro .navigation{
+  height:10vh;
+  width:100%;
+  background:#fff;
 }
 #about{
   background:#AB9477;
